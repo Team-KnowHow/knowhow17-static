@@ -1,0 +1,23 @@
+{
+  "name": "knowhow17",
+  "version": "1.0.0",
+  "description": "knowhow17 website",
+  "main": "index.html",
+  "scripts": {
+    " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-knowhow/knowhow17-static.git"
+  },
+  "keywords": [
+    "knowHow'17",
+    "Website"
+  ],
+  "author": "Vatsal Trivedi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/team-knowhow/knowhow17-static/issues"
+  },
+  "homepage": "https://github.com/team-knowhow/knowhow17-static#readme"
+}
