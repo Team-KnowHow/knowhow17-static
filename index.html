@@ -21,11 +21,11 @@
       <!--Buttons for team page and Schedule-->
       <div class="fixed-action-btn click-to-toggle">
         <a class="btn-floating btn-large tooltipped" data-position="left" data-delay="10" data-tooltip="Menu">
-          <i class="material-icons"> <img class="responsive-img" src="img/menu.png" > </i>
+          <i class="material-icons">menu</i>
         </a>
         <ul>
-          <li><a href="img/schedule.jpg" download="Schedule" onclick="Materialize.toast('Schedule is being downloaded', 4000)" class="btn-large btn-floating tooltipped" data-position="left" data-delay="10" data-tooltip="Schedule"><i class="material-icons"><img class="responsive-img" src="img/today.png" > </i></a></li>
-          <li><a href="team.html" class="btn-floating btn-large tooltipped" data-position="left" data-delay="10" data-tooltip="Team"><i class="material-icons"><img class="responsive-img" src="img/work.png" ></i></a></li>
+          <li><a href="img/schedule.jpg" download="Schedule" onclick="Materialize.toast('Schedule is being downloaded', 4000)" class="btn-large btn-floating tooltipped" data-position="left" data-delay="10" data-tooltip="Schedule"><i class="material-icons">today</i></a></li>
+          <li><a href="team.html" class="btn-floating btn-large tooltipped" data-position="left" data-delay="10" data-tooltip="Team"><i class="material-icons">work</i></a></li>
         </ul>
       </div>
       
@@ -49,28 +49,12 @@
           </div>
         </div>
       </div>
-      
-      <!--Countdown-->
-      <div class="row">
-        <div class="container">
-          <ul id="countdown">
-            <li id="days">
-              <div class="number">00</div>
-              <div class="label">Days</div>
-            </li>
-            <li id="hours">
-              <div class="number">00</div>
-              <div class="label">Hours</div>
-            </li>
-            <li id="minutes">
-              <div class="number">00</div>
-              <div class="label">Minutes</div>
-            </li>
-            <li id="seconds">
-              <div class="number">00</div>
-              <div class="label">Seconds</div>
-            </li>
-          </ul>
+
+      <!--Results-->
+      <div class="row result">
+        <div class="container center-align">
+          <h2></h2>
+          <a class="waves-effect waves-light btn-large" href="result.html"><i class="material-icons"></i>Results</a>
         </div>
       </div>
 
@@ -127,7 +111,7 @@
             <div class="row  z-depth-3">
               <div class="col l3 m12 s12">
                 <div class="valign-wrapper">
-                  <div class="valign center-block knowhow"><h1 class="center-align re">What  is  Know  How?</h1></div>
+                  <div class="valign center-block knowhow"><h1 class="center-align">What  is  Know  How?</h1></div>
                 </div>
               </div>
               <div class="col l9 m12 s12  center-align">
@@ -148,7 +132,7 @@
               <div class="col l3"></div>
                 <div class="">
                   <div class="col l6 s12 vision">
-                    <h2 class="center-align vision-text z-depth-3 "> Vision <br> Statement</h2>
+                    <h2 class="center-align vision-text z-depth-3 vision-text"> Vision <br> Statement</h2>
                       <p class="center-align flow-text vision-text2">"To provide pivotal support & develop long lasting relationship with the companies of domestic & global knowledge economy so that such companies visit to recruit talented final year students of our college yearly, with aim to provide bright and rewarding opportunities & career to them for the valuable contributions they make in growth of company after joining the offered jobs."</p>
                   </div>
                 </div>
@@ -192,6 +176,7 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="js/track.js"></script>
     </body>
   </html>
 
